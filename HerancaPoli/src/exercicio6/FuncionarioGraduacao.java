@@ -1,12 +1,14 @@
 package exercicio6;
 
+import exercicio8.Comissao;
+
 public class FuncionarioGraduacao extends FuncionarioEnsinoMedio {
     private String universidade;
 
-    public FuncionarioGraduacao(String nome, String codigoFuncional, String escolaBasico, String escolaMedio, String universidade) {
-        super(nome, codigoFuncional, escolaBasico, escolaMedio);
+    public FuncionarioGraduacao(String nome, String codigoFuncional, String escolaBasico, String escolaMedio, String universidade, Comissao comissao) {
+        super(nome, codigoFuncional, escolaBasico, escolaMedio, comissao);
         this.universidade = universidade;
-        this.setRenda(getRenda() * 2); // Acrescenta 100% à renda do nível anterior
+        setRenda(getRenda() * 2); // Acrescenta 100% à renda do nível anterior
     }
 
     public String getUniversidade() {
