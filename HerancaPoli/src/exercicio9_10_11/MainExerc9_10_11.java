@@ -1,11 +1,15 @@
-package exercicio6;
+package exercicio9_10_11;
 
+import exercicio6.Funcionario;
+import exercicio6.FuncionarioGraduacao;
+import exercicio6.FuncionarioEnsinoMedio;
+import exercicio6.FuncionarioEnsinoBasico;
 import exercicio8.Comissao;
 import exercicio8.ComissaoGerente;
 import exercicio8.ComissaoSupervisor;
 import exercicio8.ComissaoVendedor;
 
-public class MainExerc6QueVirouOExerc11 {
+public class MainExerc9_10_11 {
     public static void main(String[] args) {
         // Criando instâncias de comissão
         Comissao comissaoGerente = new ComissaoGerente();
