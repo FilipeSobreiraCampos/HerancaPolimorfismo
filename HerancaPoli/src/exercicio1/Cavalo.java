@@ -16,7 +16,6 @@ public class Cavalo extends Animal {
         correr();
     }
 
-    // Comportamento específico
     public void correr() {
         System.out.println("O cavalo está correndo.");
     }

@@ -3,7 +3,7 @@ package exercicio8;
 public class ComissaoGerente extends Comissao {
 
     public ComissaoGerente() {
-        super(1500.00); // Adicional de R$1500,00
+        super(1500.00);
     }
 
     @Override
