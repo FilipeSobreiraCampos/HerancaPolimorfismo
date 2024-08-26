@@ -11,7 +11,7 @@ public class Funcionario {
     public Funcionario(String nome, String codigoFuncional, Comissao comissao) {
         this.nome = nome;
         this.codigoFuncional = codigoFuncional;
-        this.renda = 1000.00; // Renda básica de R$ 1000,00
+        this.renda = 1000.00;
         this.comissao = comissao;
     }
 

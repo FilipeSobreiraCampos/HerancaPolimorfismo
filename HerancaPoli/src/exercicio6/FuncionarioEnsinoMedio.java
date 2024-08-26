@@ -8,7 +8,7 @@ public class FuncionarioEnsinoMedio extends FuncionarioEnsinoBasico {
     public FuncionarioEnsinoMedio(String nome, String codigoFuncional, String escolaBasico, String escolaMedio, Comissao comissao) {
         super(nome, codigoFuncional, escolaBasico, comissao);
         this.escolaMedio = escolaMedio;
-        setRenda(getRenda() * 1.5); // Acrescenta 50% à renda do nível anterior
+        setRenda(getRenda() * 1.5);
     }
 
     public String getEscolaMedio() {

@@ -25,9 +25,7 @@ public abstract class Animal {
         this.idade = idade;
     }
 
-    // Método abstrato para emitir som
     public abstract void emitirSom();
 
-    // Método abstrato para comportamento específico
     public abstract void comportamento();
 }

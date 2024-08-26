@@ -16,7 +16,6 @@ public class Preguica extends Animal {
         subirEmArvores();
     }
 
-    // Comportamento específico
     public void subirEmArvores() {
         System.out.println("A preguiça está subindo em árvores.");
     }
